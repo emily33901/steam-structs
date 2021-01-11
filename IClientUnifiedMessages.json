@@ -1,0 +1,1 @@
+{"class":"IClientUnifiedMessages","functions":["SendMethod(char const*, void const*, unsigned int, unsigned long long)","GetMethodResponseInfo(unsigned long long, unsigned int*, EResult*)","GetMethodResponseData(unsigned long long, void*, unsigned int, bool)","ReleaseMethod(unsigned long long)","SendNotification(char const*, void const*, unsigned int)"]}

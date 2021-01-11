@@ -1,0 +1,1 @@
+{"class":"ISteamRemoteStorage001","functions":["FileWrite(char const*, void const*, int)","GetFileSize(char const*)","FileRead(char const*, void*, int)","FileExists(char const*)","FileDelete(char const*)","GetFileCount()","GetFileNameAndSize(int, int*)","GetQuota(int*, int*)"]}

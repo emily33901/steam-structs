@@ -1,0 +1,21 @@
+class IClientControllerXInputOSX {
+	virtual unknown_ret D_CSteamControllerXInputOSX() = 0;
+	virtual unknown_ret D_CSteamControllerXInputOSX() = 0;
+	virtual unknown_ret SetDefaultControllerEnabledMask(unsigned int) = 0;
+	virtual unknown_ret BAllocateHandle(unsigned int*) = 0;
+	virtual unknown_ret DeallocateHandle(unsigned int) = 0;
+	virtual unknown_ret BIsConnected(unsigned int) = 0;
+	virtual unknown_ret SetConnected(unsigned int, bool) = 0;
+	virtual unknown_ret SetDeviceInfo(unsigned int, unsigned short, unsigned short, unsigned long long) = 0;
+	virtual unknown_ret SendGamePadButtonEvent(unsigned int, Voltroller::GamepadButtons, bool) = 0;
+	virtual unknown_ret SendAxisEvent(unsigned int, ISpoofControllerXInput::EAxis, short) = 0;
+	virtual unknown_ret SetEnabledByAppID(unsigned int, bool, bool) = 0;
+	virtual unknown_ret BGetRumbleRequest(unsigned int, unsigned short*, unsigned short*) = 0;
+	virtual unknown_ret GetGamepadIndex(unsigned int) = 0;
+	virtual unknown_ret GetGamepadIndexForXInputIndex(unsigned int) = 0;
+	virtual unknown_ret GetGamepadIndexChangeCounter() = 0;
+	virtual unknown_ret BSwapGamepadIndex(unsigned int, int, int) = 0;
+	virtual unknown_ret SendActivity(int) = 0;
+	virtual unknown_ret SendEndOfFrame(unsigned int) = 0;
+	virtual unknown_ret Validate(CValidator&, char const*) = 0;
+};

@@ -1,0 +1,1 @@
+{"class":"IClientGameCoordinator","functions":["SendMessage(unsigned int, unsigned int, void const*, unsigned int)","IsMessageAvailable(unsigned int, unsigned int*)","RetrieveMessage(unsigned int, unsigned int*, void*, unsigned int, unsigned int*)"]}

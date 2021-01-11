@@ -1,0 +1,96 @@
+
+using System;
+using System.Runtime.InteropServices;
+
+namespace SteamStructs {
+    [StructLayout(LayoutKind.Sequential, Pack = 1)]
+    internal struct IClientRemoteClientManager
+    {
+        public IntPtr SetUIReadyForStream;
+        public IntPtr StreamingAudioPreparationComplete;
+        public IntPtr StreamingAudioFinished;
+        public IntPtr ProcessStreamAvailable;
+        public IntPtr ProcessStreamShutdown;
+        public IntPtr UpdateStreamClientResolution;
+        public IntPtr ProcessStreamClientConnected;
+        public IntPtr ProcessStreamClientDisconnected;
+        public IntPtr BGetStreamTransportSignal;
+        public IntPtr SendStreamTransportSignal;
+        public IntPtr ConnectToRemote;
+        public IntPtr ConnectToRemoteAddress;
+        public IntPtr RefreshRemoteClients;
+        public IntPtr GetClientPlatformTypes;
+        public IntPtr GetRemoteClientCount;
+        public IntPtr GetRemoteClientIDByIndex;
+        public IntPtr GetRemoteClientNameByIndex;
+        public IntPtr GetRemoteClientConnectStateByIndex;
+        public IntPtr BRemoteClientHasStreamingSupportedByIndex;
+        public IntPtr BRemoteClientHasStreamingEnabledByIndex;
+        public IntPtr GetRemoteClientAppStateByIndex;
+        public IntPtr GetRemoteClientConnectedCount;
+        public IntPtr GetRemoteClientStreamingEnabledCount;
+        public IntPtr GetRemoteClientName;
+        public IntPtr GetRemoteClientConnectState;
+        public IntPtr BRemoteClientHasStreamingSupported;
+        public IntPtr BRemoteClientHasStreamingEnabled;
+        public IntPtr GetRemoteClientAppAvailability;
+        public IntPtr GetRemoteClientAppState;
+        public IntPtr GetRemoteDeviceCount;
+        public IntPtr GetRemoteDeviceIDByIndex;
+        public IntPtr GetRemoteDeviceNameByIndex;
+        public IntPtr GetRemoteDeviceName;
+        public IntPtr UnpairRemoteDevices;
+        public IntPtr BIsStreamingSupported;
+        public IntPtr BIsStreamingEnabled;
+        public IntPtr SetStreamingEnabled;
+        public IntPtr StartStream;
+        public IntPtr BIsRemoteLaunch;
+        public IntPtr BIsBigPictureActiveForStreaming;
+        public IntPtr BIsStreamingSessionActive;
+        public IntPtr BIsStreamingSessionActiveForGame;
+        public IntPtr BIsStreamingClientConnected;
+        public IntPtr BStreamingClientWantsRecentGames;
+        public IntPtr StopStreamingSession;
+        public IntPtr LaunchAppProgress;
+        public IntPtr LaunchAppResult;
+        public IntPtr BIsStreamStartInProgress;
+        public IntPtr LaunchAppResultRequestLaunchOption;
+        public IntPtr AcceptEULA;
+        public IntPtr GetRemoteClientPlatformName;
+        public IntPtr BIsStreamClientRunning;
+        public IntPtr BIsStreamClientRunning2;
+        public IntPtr BIsStreamClientRunningConnectedToClient;
+        public IntPtr BGetStreamingClientConfig;
+        public IntPtr BSetStreamingClientConfig;
+        public IntPtr RequestControllerConfig;
+        public IntPtr PostControllerConfig;
+        public IntPtr GetControllerConfig;
+        public IntPtr SetRemoteDeviceAuthorized;
+        public IntPtr SetStreamingDriversInstalled;
+        public IntPtr SetStreamingPIN;
+        public IntPtr GetStreamingPINSize;
+        public IntPtr UnlockHEVC;
+        public IntPtr UsedVideoX264;
+        public IntPtr UsedVideoH264;
+        public IntPtr UsedVideoHEVC;
+        public IntPtr BHasRemotePlayInviteAndSession;
+        public IntPtr CreateRemotePlayInviteAndSession;
+        public IntPtr CancelRemotePlayInviteAndSession;
+        public IntPtr JoinRemotePlaySession;
+        public IntPtr BStreamingDesktopToRemotePlayTogetherEnabled;
+        public IntPtr SetStreamingDesktopToRemotePlayTogetherEnabled;
+        public IntPtr SetPerUserKeyboardInputEnabled;
+        public IntPtr SetPerUserMouseInputEnabled;
+        public IntPtr SetPerUserControllerInputEnabled;
+        public IntPtr GetPerUserInputSettings;
+        public IntPtr OnClientUsedInput;
+        public IntPtr OnPlaceholderStateChanged;
+        public IntPtr OnRemoteClientRemotePlayClearControllers;
+        public IntPtr OnRemoteClientRemotePlayControllerIndexSet;
+        public IntPtr UpdateRemotePlayTogetherSession;
+        public IntPtr OnRemotePlayUIMovedController;
+        public IntPtr OnSendRemotePlayTogetherInvite;
+        public IntPtr GetCloudGameTimeRemaining;
+        public IntPtr ShutdownStreamClients;
+    }
+}

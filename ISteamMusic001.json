@@ -1,0 +1,1 @@
+{"class":"ISteamMusic001","functions":["BIsEnabled()","BIsPlaying()","GetPlaybackStatus()","Play()","Pause()","PlayPrevious()","PlayNext()","SetVolume(float)","GetVolume()"]}

@@ -1,0 +1,1 @@
+{"class":"ISteamApps003","functions":["BIsSubscribed()","BIsLowViolence()","BIsCybercafe()","BIsVACBanned()","GetCurrentGameLanguage()","GetAvailableGameLanguages()","BIsSubscribedApp(unsigned int)","BIsDlcInstalled(unsigned int)"]}

@@ -1,0 +1,1 @@
+{"class":"ISteamUtils001","functions":["GetSecondsSinceAppActive()","GetSecondsSinceComputerActive()","GetConnectedUniverse()","GetServerRealTime()","GetIPCountry()","GetImageSize(int, unsigned int*, unsigned int*)","GetImageRGBA(int, unsigned char*, int)"]}

@@ -1,0 +1,1 @@
+{"class":"ISteamGameCoordinator001","functions":["SendMessage(unsigned int, void const*, unsigned int)","IsMessageAvailable(unsigned int*)","RetrieveMessage(unsigned int*, void*, unsigned int, unsigned int*)"]}

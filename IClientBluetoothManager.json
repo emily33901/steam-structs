@@ -1,0 +1,1 @@
+{"class":"IClientBluetoothManager","functions":["SetDiscovering(bool)","EnumerateDevice(unsigned int)","GetDeviceType(char const*)","GetDeviceName(char const*)","IsConnected(char const*)","IsPaired(char const*)","Pair(char const*)","UnPair(char const*)","Connect(char const*)","Disconnect(char const*)","IsAvailable()"]}

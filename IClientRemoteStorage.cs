@@ -1,0 +1,94 @@
+
+using System;
+using System.Runtime.InteropServices;
+
+namespace SteamStructs {
+    [StructLayout(LayoutKind.Sequential, Pack = 1)]
+    internal struct IClientRemoteStorage
+    {
+        public IntPtr FileWrite;
+        public IntPtr GetFileSize;
+        public IntPtr FileWriteAsync;
+        public IntPtr FileReadAsync;
+        public IntPtr FileReadAsyncComplete;
+        public IntPtr FileRead;
+        public IntPtr FileForget;
+        public IntPtr FileDelete;
+        public IntPtr FileShare;
+        public IntPtr FileExists;
+        public IntPtr FilePersisted;
+        public IntPtr GetFileTimestamp;
+        public IntPtr SetSyncPlatforms;
+        public IntPtr GetSyncPlatforms;
+        public IntPtr FileWriteStreamOpen;
+        public IntPtr FileWriteStreamClose;
+        public IntPtr FileWriteStreamCancel;
+        public IntPtr FileWriteStreamWriteChunk;
+        public IntPtr GetFileCount;
+        public IntPtr GetFileNameAndSize;
+        public IntPtr GetQuota;
+        public IntPtr IsCloudEnabledForAccount;
+        public IntPtr IsCloudEnabledForApp;
+        public IntPtr SetCloudEnabledForApp;
+        public IntPtr UGCDownload;
+        public IntPtr UGCDownloadToLocation;
+        public IntPtr GetUGCDownloadProgress;
+        public IntPtr GetUGCDetails;
+        public IntPtr UGCRead;
+        public IntPtr GetCachedUGCCount;
+        public IntPtr GetCachedUGCHandle;
+        public IntPtr PublishFile;
+        public IntPtr PublishVideo;
+        public IntPtr PublishVideoFromURL;
+        public IntPtr CreatePublishedFileUpdateRequest;
+        public IntPtr UpdatePublishedFileFile;
+        public IntPtr UpdatePublishedFilePreviewFile;
+        public IntPtr UpdatePublishedFileTitle;
+        public IntPtr UpdatePublishedFileDescription;
+        public IntPtr UpdatePublishedFileSetChangeDescription;
+        public IntPtr UpdatePublishedFileVisibility;
+        public IntPtr UpdatePublishedFileTags;
+        public IntPtr UpdatePublishedFileURL;
+        public IntPtr CommitPublishedFileUpdate;
+        public IntPtr GetPublishedFileDetails;
+        public IntPtr DeletePublishedFile;
+        public IntPtr EnumerateUserPublishedFiles;
+        public IntPtr SubscribePublishedFile;
+        public IntPtr EnumerateUserSubscribedFiles;
+        public IntPtr UnsubscribePublishedFile;
+        public IntPtr SetUserPublishedFileAction;
+        public IntPtr EnumeratePublishedFilesByUserAction;
+        public IntPtr EnumerateUserSubscribedFilesWithUpdates;
+        public IntPtr GetCREItemVoteSummary;
+        public IntPtr UpdateUserPublishedItemVote;
+        public IntPtr GetUserPublishedItemVoteDetails;
+        public IntPtr EnumerateUserSharedWorkshopFiles;
+        public IntPtr EnumeratePublishedWorkshopFiles;
+        public IntPtr EGetFileSyncState;
+        public IntPtr BIsFileSyncing;
+        public IntPtr FilePersist;
+        public IntPtr FileFetch;
+        public IntPtr ResolvePath;
+        public IntPtr FileTouch;
+        public IntPtr SetCloudEnabledForAccount;
+        public IntPtr LoadLocalFileInfoCache;
+        public IntPtr EvaluateRemoteStorageSyncState;
+        public IntPtr GetRemoteStorageSyncState;
+        public IntPtr HaveLatestFilesLocally;
+        public IntPtr GetConflictingFileTimestamps;
+        public IntPtr ResolveSyncConflict;
+        public IntPtr SynchronizeApp;
+        public IntPtr IsAppSyncInProgress;
+        public IntPtr RunAutoCloudOnAppLaunch;
+        public IntPtr RunAutoCloudOnAppExit;
+        public IntPtr ResetFileRequestState;
+        public IntPtr ClearPublishFileUpdateRequests;
+        public IntPtr GetSubscribedFileDownloadCount;
+        public IntPtr BGetSubscribedFileDownloadInfo;
+        public IntPtr BGetSubscribedFileDownloadInfo2;
+        public IntPtr PauseSubscribedFileDownloadsForApp;
+        public IntPtr ResumeSubscribedFileDownloadsForApp;
+        public IntPtr PauseAllSubscribedFileDownloads;
+        public IntPtr ResumeAllSubscribedFileDownloads;
+    }
+}

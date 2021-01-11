@@ -1,0 +1,1 @@
+{"class":"ISteamAppList001","functions":["GetNumInstalledApps()","GetInstalledApps(unsigned int*, unsigned int)","GetAppName(unsigned int, char*, int)","GetAppInstallDir(unsigned int, char*, int)","GetAppBuildId(unsigned int)"]}

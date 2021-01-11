@@ -1,0 +1,1 @@
+{"class":"ISteamTV001","functions":["IsBroadcasting(int*)","AddBroadcastGameData(char const*, char const*)","RemoveBroadcastGameData(char const*)","AddTimelineMarker(char const*, bool, unsigned char, unsigned char, unsigned char)","RemoveTimelineMarker()","AddRegion(char const*, char const*, SteamTVRegion_t const*, ESteamTVRegionBehavior)","RemoveRegion(unsigned int)"]}

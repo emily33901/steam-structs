@@ -1,0 +1,1 @@
+{"class":"ISteamUser010","functions":["GetHSteamUser()","BLoggedOn()","GetSteamID()","InitiateGameConnection(void*, int, CSteamID, unsigned int, unsigned short, bool)","TerminateGameConnection(unsigned int, unsigned short)","TrackAppUsageEvent(CGameID, int, char const*)"]}

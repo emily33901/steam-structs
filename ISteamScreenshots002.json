@@ -1,0 +1,1 @@
+{"class":"ISteamScreenshots002","functions":["WriteScreenshot(void*, unsigned int, int, int)","AddScreenshotToLibrary(char const*, char const*, int, int)","TriggerScreenshot()","HookScreenshots(bool)","SetLocation(unsigned int, char const*)","TagUser(unsigned int, CSteamID)","TagPublishedFile(unsigned int, unsigned long long)"]}

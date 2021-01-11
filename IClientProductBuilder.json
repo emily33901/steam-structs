@@ -1,0 +1,1 @@
+{"class":"IClientProductBuilder","functions":["SignInstallScript(unsigned int, char const*, char const*)","DRMWrap(unsigned int, char const*, char const*, char const*, unsigned int)","CEGWrap(unsigned int, char const*, char const*, char const*)"]}

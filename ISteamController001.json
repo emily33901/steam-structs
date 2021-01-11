@@ -1,0 +1,1 @@
+{"class":"ISteamController001","functions":["Init(char const*)","Shutdown()","RunFrame()","GetControllerState(unsigned int, SteamControllerState001_t*)","TriggerHapticPulse(unsigned int, ESteamControllerPad, unsigned short)","SetOverrideMode(char const*)"]}

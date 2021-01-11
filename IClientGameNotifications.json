@@ -1,0 +1,1 @@
+{"class":"IClientGameNotifications","functions":["EnumerateNotifications(unsigned int)","GetNotificationCount(unsigned int)","GetNotification(unsigned int, int, GameNotification_t*)","RemoveSession(unsigned int, unsigned long long)","UpdateSession(unsigned int, unsigned long long)"]}

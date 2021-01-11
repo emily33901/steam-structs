@@ -1,0 +1,1 @@
+{"class":"ISteamVideo002","functions":["GetVideoURL(unsigned int)","IsBroadcasting(int*)","GetOPFSettings(unsigned int)","GetOPFStringForApp(unsigned int, char*, int*)"]}

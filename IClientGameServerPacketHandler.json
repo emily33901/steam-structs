@@ -1,0 +1,1 @@
+{"class":"IClientGameServerPacketHandler","functions":["HandleIncomingPacket(void const*, int, unsigned int, unsigned short)","GetNextOutgoingPacket(void*, int, unsigned int*, unsigned short*)"]}

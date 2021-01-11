@@ -1,0 +1,1 @@
+{"class":"IClientRemotePlay","functions":["GetSessionCount()","GetSessionID(int)","GetSessionSteamID(unsigned int)","GetSessionClientName(unsigned int)","GetSessionClientFormFactor(unsigned int)","BGetSessionClientResolution(unsigned int, int*, int*)","BSendRemotePlayTogetherInvite(CSteamID)"]}

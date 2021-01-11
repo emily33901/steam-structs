@@ -1,0 +1,1 @@
+{"class":"ISteamParentalSettings001","functions":["BIsParentalLockEnabled()","BIsParentalLockLocked()","BIsAppBlocked(unsigned int)","BIsAppInBlockList(unsigned int)","BIsFeatureBlocked(EParentalFeature)","BIsFeatureInBlockList(EParentalFeature)"]}

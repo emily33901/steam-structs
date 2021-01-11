@@ -1,0 +1,1 @@
+{"class":"ISteamChat001","functions":["RequestSteamGroupChatMessageNotifications(unsigned long long, unsigned long long, EChatNotificationFormat)","RequestSteamGroupChatMessageHistory(unsigned long long, unsigned long long, unsigned int)","RequestSendSteamGroupChatMessage(unsigned long long, unsigned long long, unsigned int, char const*)"]}
